@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 
 	
-	@RequestMapping("/randomnumber")
+	@RequestMapping("/")
 	public String hi() {
 //		return "helloThere";
 		Random rand = new Random(); //instance of random class
